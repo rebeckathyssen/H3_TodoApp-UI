@@ -1,0 +1,11 @@
+<h3>Dagens kat(te):</h3>
+
+<img src="{{ oneCat?.url }}" id="picture" />
+<div class="row">
+  <div class="col-6">
+    Upvote: <i class="fa fa-arrow-circle-up" (click)="voteUp()"></i>
+  </div>
+  <div class="col-6">
+    Downvote: <i class="fa fa-arrow-circle-down" (click)="voteDown()"></i>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+.numberbox {
+  background-color: #f8af9b;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+#item {
+  border-bottom: solid #b8b8b8 1px;
+  margin-left: 15px;
+}
+
+.md-form input[type="text"]:focus {
+  box-shadow: 0 1px 0 0 #fccfc3 !important;
+
+  border-bottom: 1px solid #fccfc3 !important;
+}
+
+.md-form input[type="text"] {
+  border-bottom: 1px solid #b8b8b8 !important;
+}
+
+.btn-primary {
+  background: #fccfc3 !important;
+  color: black !important;
+  padding-left: -50px !important;
+}
+
+.col-12 {
+  margin-top: -20px;
+}
+
+#inputform {
+  /*width: 268px;*/
+  margin-top: -2px;
+  margin-right: -20px;
+  width: 111%;
+}
+
+.fa-plus {
+  color: #f8af9b;
+  margin-top: 9px;
+  margin-left: -20px;
+}

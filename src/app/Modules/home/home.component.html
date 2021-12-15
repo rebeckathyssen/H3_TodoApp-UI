@@ -1,0 +1,40 @@
+<!-- Container to hold the entire page and keep it from creating a bottom scrollbar -->
+<div class="container-fluid">
+  <!-- The piece of paper itself -->
+  <div class="row justify-content-center">
+    <div class="col-10 shadow-lg p-3 mb-5">
+      <!-- Columns for the headers -->
+      <div class="row justify-content-center">
+        <div class="col-5">
+          <!-- Column 1: -->
+          <h2>Dagens gøremål</h2>
+          <div class="underlinebox">
+            &nbsp;
+          </div>
+        </div>
+        <div class="col-1"></div>
+
+        <div class="col-5" id="date">
+          Den {{ today | date: "d. MMMM yyyy" }}
+        </div>
+      </div>
+
+      <!-- Columns for the components -->
+      <div class="row justify-content-center">
+        <div class="col-5">
+          <app-topthree></app-topthree>
+
+          <app-todo></app-todo>
+
+          <app-notes></app-notes>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5">
+          <app-water></app-water>
+          <app-activities></app-activities>
+          <app-cats></app-cats>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
